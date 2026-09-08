@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d6113a26cca8b5846806923ac1ac671a, type: 3}
+  m_Name: Terran_FocusBolt
+  m_EditorClassIdentifier: Assembly-CSharp::AttackDefinitionSO
+  attackId: terran_focus_bolt
+  displayName: Focus Bolt
+  description: "Very cheap, near-spammable given Terran's regen \u2014 the \"always
+    available\" poke"
+  icon: {fileID: 0}
+  kiCost: 8
+  cooldown: 0.6
+  projectilePrefab: {fileID: 5381933692286296148, guid: e3538c0cfe2268a46b506529841222f7, type: 3}
+  behaviour: {fileID: 11400000, guid: bd4c0cb7c6d50844b9463f37527dc9f0, type: 2}
+  speed: 25
+  damage: 9
+  projectileCount: 1
+  intraShotDelay: 0
+  targetAcquisition: 0
+  targetSearchRadius: 15
+  targetSearchConeAngle: 45
+  maxRange: 0
